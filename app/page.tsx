@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-lexend)] text-primary-blue">
       <main className="text-primary-blue bg-white max-h-screen w-full flex flex-col max-w-screen-lg gap-2 row-start-2 items-center sm:items-start">
-        <h1 className="text-xl font-semibold text-blue px-8 py-2 pt-8">Stacking Up!</h1>
+        <h1 className="text-xl font-semibold text-blue px-8 py-2 pt-24">Stacking Up!</h1>
         <p className="px-8 text-[14px] md:text-[16px] md:w-[450px]">
           Welcome to some of my thoughts and musings taken from my journey building software.
           While I occupy this virtual space to learn and develop my writing style, my
