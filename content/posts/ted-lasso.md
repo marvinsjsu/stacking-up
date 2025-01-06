@@ -5,35 +5,25 @@ published: true
 category: humanity, leadership
 abstract: "Like for many, Ted Lasso was the show that held me up through Covid and some tough times. But it's come to mean more and unsurprisingly many of its themes applies to engineering."
 imgUrl: '/static/ted-lasso.webp'
+protocol:
+    - "pause judgement, be curious, and place yourself in someone else's shoes"
+    - "honor your commitments, be present, and actively listen in 1-on-1's"
+    - "be kind, not only to others, but to yourself"
+    - "a lot of software engineering is about building a community"
 ---
 
-I confess, the only reason I gave Ted Lasso a watch was because I was stuck at home in isolation, not really able to walk much
-cuz my knee ballooned to what looked like half a baseball (psoriatic arthritis, not that I knew that was the reason then),
-and I had a free 3-month trial for Apple TV.  It was the first Apple TV show I felt curious about - why is Jason Sudeikis
-wearing that stache?  
+I confess, the only reason I gave Ted Lasso a watch was because I was stuck at home in isolation, not really able to walk much cuz my right knee ballooned to what looked like half a baseball (psoriatic arthritis, not that I knew that was the reason then), and I had a free 3-month trial for Apple TV.  It was the first Apple TV show I felt curious about - why is Jason Sudeikis
+wearing that stache?
 
-They say you can’t judge a book by its cover, but in the case of Ted Lasso, it's pretty easy to assume this goofy-looking
-coach of a British football team would dish out more slapstick than soul-searching. Yet, I've never been so happy to be SO 
-wrong!  Ted and his crew of flawed misfits remind us what it means to be human - during a time that I think
-many of us really needed to feel and remember our humanity.
+They say you can’t judge a book by its cover, but in the case of Ted Lasso, it's pretty easy to assume this goofy-looking coach of a British football team would dish out more slapstick than soul-searching. Yet, I've never been SO happy to be SO wrong!  Ted and his crew of misfits reminded me what it means to be human - during a time that I think many of us really needed to feel and remember just that.
 
-In the very first episode, one of the first things Ted does is post a "Believe" sign high on a wall in his new team's
-locker room.  Believe in what? We eventually learn that this means believing in each other, believing on what we can
-do together, believing in ourselves, and believing in people overcoming the many challenges and obstacles life
-throws at us.
+In the very first episode, one of the first things Ted does is post a "Believe" sign high on a wall in his new team's locker room.  Believe in what? We eventually learn that this means believing in each other, believing on what we can do together, believing in ourselves, and believing in people overcoming the many challenges and obstacles life throws at us.
 
 ![Ted Lasso - jason sudekis dancing](https://i.makeagif.com/media/2-20-2021/789rFq.gif)
 
-Belief, at its core, is an act of empathy. To believe in someone is to understand them and their struggles, their dreams,
-their potential, and to let them know you’re in their corner. Ted Lasso doesn’t just tell his team to believe; he shows
-them what belief looks like. It’s in the way he listens, the way he supports, and the way he cares. Empathy is what
-transforms belief from a feel-good slogan into a transformative force. When we believe in others, we’re not just
-giving them permission to succeed; we’re giving them the courage to try.
+Belief, at its core, is an act of empathy. To believe in someone is to understand them and their struggles, their dreams, their potential, and to let them know you’re in their corner. Ted Lasso doesn’t just tell his team to believe; he shows them what belief looks like. It’s in the way he listens, the way he supports, and the way he cares. Empathy is what transforms belief from a feel-good slogan into a transformative force. When we believe in others, we’re not just giving them permission to succeed; we’re giving them the courage to try.
 
-It's the quiet superpower we never knew we needed in life ... and, it's quite important in being a good software engineer
-and leader!  See, even if we are individual contributors and don't have the title of a lead or manager, each of us, as
-a software engineer is a leader in so many ways.  We lead in our thoughts, ideas, and how we treat and interact with
-others.
+It's quiet the superpower we never knew we needed in life ... and, it's quite important in being a good software engineer, teammate, colleague, and leader!  See, even if we are individual contributors and don't have the title of a lead or manager, each of us, as a software engineer is a leader in so many ways.  We lead in our thoughts, ideas, and how we treat and interact with others.
 
 This is where the power of belief, care, and kindness comes into play. Let’s face it: being a software engineer can sometimes feel like you’re stuck in an endless penalty shootout against bugs, deadlines, and documentation. It's easy to be so mechanical and operate with blinders on. "I just gotta get this ish done!", I've told this myself and the keyboard many times.  It can sometimes be easy to lose sight of the people we work with.  Empathy works so well when it moves across all directions: left/right, from top-down, and bottom-up.
 
