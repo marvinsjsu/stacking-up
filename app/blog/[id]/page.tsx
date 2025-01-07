@@ -8,7 +8,7 @@ export async function generateStaticParams() {
 }
 
 async function fetchData(params: { id: string }) {
-  const postData = getPostData(params.id);
+  const postData = await getPostData(params.id);
 
   return {
     props: {

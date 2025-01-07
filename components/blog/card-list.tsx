@@ -11,7 +11,12 @@ type CardListProps = {
     published: boolean;
 };
 
-export default function CardList({ data }: {data: Array<CardListProps>}) { 
+export default function CardList({ data }: { data: Array<CardListProps> }) { 
+    if (!Array.isArray(data)) {
+        console.error('Expected data to be an array, but received:', data);
+        return null;
+    }
+    
     return (
         <div>
             <div className='pb-8 mt-4 dark:text-white mx-4'>

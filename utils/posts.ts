@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
@@ -10,9 +10,9 @@ interface PostData {
 
 const postsPath = path.join(process.cwd(), '/content/posts');
 
-const readPostFile = (slug: string): PostData => { 
+const readPostFile = async (slug: string): Promise<PostData> => { 
     const fullPath = path.join(postsPath, `${slug}.md`);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const fileContents = await fs.readFile(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
     const htmlContent = marked(content);
     return {
@@ -23,34 +23,31 @@ const readPostFile = (slug: string): PostData => {
     }
 }
 
-const generatePosts = (postSlugs: string[]): PostData[] => { 
-    return postSlugs
-        .map((slug) => readPostFile(slug))
-        .sort((a, b) => (a.date < b.date ? 1 : -1));
-}
+const generatePosts = async (postSlugs: string[]): Promise<PostData[]> => {
+    const posts = await Promise.all(postSlugs.map((slug) => readPostFile(slug)));
+    return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+};
 
-
-export function getAllPostSlugs(): string[] { 
-    const filenames = fs.readdirSync(postsPath);
+export async function getAllPostSlugs(): Promise<string[]> { 
+    const filenames = await fs.readdir(postsPath);
     return filenames.map((filename) => filename.replace(/\.md$/, ''));
 }
 
 
-export function getSortedPostsData(): PostData[] { 
-    const postSlugs = getAllPostSlugs();
+export async function getSortedPostsData(): Promise<PostData[]> { 
+    const postSlugs = await getAllPostSlugs();
     return generatePosts(postSlugs);
 }
 
-export function getPostData(slug: string): PostData { 
+export async function getPostData(slug: string): Promise<PostData> { 
     return readPostFile(slug);
 }
 
-export function getAllPostParams(): { params: { slug: string } }[] { 
-    const postSlugs = getAllPostSlugs();
-
+export async function getAllPostParams(): Promise<{ params: { slug: string } }[]> {
+    const postSlugs = await getAllPostSlugs();
     return postSlugs.map((slug) => ({
         params: {
-            slug,
+        slug,
         },
     }));
 }
