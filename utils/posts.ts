@@ -33,7 +33,6 @@ export async function getAllPostSlugs(): Promise<string[]> {
     return filenames.map((filename) => filename.replace(/\.md$/, ''));
 }
 
-
 export async function getSortedPostsData(): Promise<PostData[]> { 
     const postSlugs = await getAllPostSlugs();
     return generatePosts(postSlugs);
