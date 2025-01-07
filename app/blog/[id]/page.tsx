@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { getPostData, getAllPostParams } from '@/utils/posts';
 
@@ -36,7 +37,7 @@ export default async function Page({ params }: {
           content={`http://localhost:3000/api/og?title=${title}`}
         />
       </Head>
-      <main className="text-primary-blue bg-white max-h-screen w-full flex flex-col max-w-screen-md items-center sm:items-start">
+      <main className="text-primary-blue bg-white max-h-screen w-full flex flex-col max-w-screen-md items-center sm:items-start px-8">
         <div className="w-full flex justify-center">
           <Image
             src={imgUrl}
@@ -60,12 +61,13 @@ export default async function Page({ params }: {
             </ul>
           </div>
         )}
-
+      </main>
+      <section className="bg-white py-20">
         <div
-          className="h-full bg-white pt-8 pb-20 mb-20 prose text-primary-blue px-4 max-w-screen-md"
+          className="prose px-12 bg-white w-full max-w-screen-md"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
-      </main>
+      </section>
     </div>
   );
 }

@@ -12,15 +12,27 @@ export default {
       typography: (theme: (arg0: string) => any) => ({
         DEFAULT: {
           css: {
+            h1: { color: '#0d3b66' },
+            h2: { color: '#0d3b66' },
+            h3: { color: '#0d3b66' },
+            h4: { color: '#0d3b66' },
+            h5: { color: '#0d3b66' },            
             img: {
               display: 'block',
               marginLeft: 'auto',
               marginRight: 'auto',
             },
             p: {
+              color: '#0d3b66',
               marginTop: theme('spacing.4'),
               marginBottom: theme('spacing.6'),
             },
+            li: {
+              color: '#0d3b66',
+            },
+            strong: {
+              color: '#0d3b66',
+            }
           },
         },
       }),
