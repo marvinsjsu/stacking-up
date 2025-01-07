@@ -4,7 +4,10 @@ import Image from 'next/image';
 import { getPostData, getAllPostParams } from '@/utils/posts';
 
 export async function generateStaticParams() {
-  return getAllPostParams();
+  const postParams = await getAllPostParams(); // Ensure this is an array of { params: { slug: string } }
+  return postParams.map(({ params }) => ({
+    id: params.slug,
+  }));
 }
 
 async function fetchData(params: { id: string }) {
