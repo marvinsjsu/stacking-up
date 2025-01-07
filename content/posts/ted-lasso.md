@@ -2,7 +2,9 @@
 title: 'The Lasso Way - care and be kind'
 date: '2022-11-20'
 published: true
-category: humanity, leadership
+category:
+    - humanity
+    - leadership
 abstract: "Like for many, Ted Lasso was the show that held me down (I should really say, up) through Covid and some tough times. But it's come to mean more and unsurprisingly many of its themes applies to engineering life."
 imgUrl: '/static/ted-lasso.webp'
 protocol:
