@@ -1,21 +1,23 @@
 ---
-title: 'Believe ... care and be kind'
+title: 'The Lasso Way - care and be kind'
 date: '2022-11-20'
 published: true
 category: humanity, leadership
-abstract: "Like for many, Ted Lasso was the show that held me up through Covid and some tough times. But it's come to mean more and unsurprisingly many of its themes applies to engineering."
+abstract: "Like for many, Ted Lasso was the show that held me down (I should really say, up) through Covid and some tough times. But it's come to mean more and unsurprisingly many of its themes applies to engineering life."
 imgUrl: '/static/ted-lasso.webp'
 protocol:
+    - "IC or not, we all have a chance to be a leader"
     - "pause judgement, be curious, and place yourself in someone else's shoes"
     - "honor your commitments, be present, and actively listen in 1-on-1's"
-    - "be kind, not only to others, but to yourself"
-    - "a lot of software engineering is about building a community"
+    - "respect people's times by being transparent and coming prepared - don't make people guess what's going on"
+    - "a huge part of software engineering is about building a team"
+    - "be kind to others, and to yourself"
 ---
 
 I confess, the only reason I gave Ted Lasso a watch was because I was stuck at home in isolation, not really able to walk much cuz my right knee ballooned to what looked like half a baseball (psoriatic arthritis, not that I knew that was the reason then), and I had a free 3-month trial for Apple TV.  It was the first Apple TV show I felt curious about - why is Jason Sudeikis
 wearing that stache?
 
-They say you can’t judge a book by its cover, but in the case of Ted Lasso, it's pretty easy to assume this goofy-looking coach of a British football team would dish out more slapstick than soul-searching. Yet, I've never been SO happy to be SO wrong!  Ted and his crew of misfits reminded me what it means to be human - during a time that I think many of us really needed to feel and remember just that.
+They say you can’t judge a book by its cover, but in the case of Ted Lasso, it's pretty easy to assume this goofy-looking coach of a British football team would dish out more slapstick than soul-searching. Yet, I'm really happy to be so wrong!  Ted and each of the characters in the show reminded me what it means to be human - during a time that I think many of us really needed to feel and remember just that.
 
 In the very first episode, one of the first things Ted does is post a "Believe" sign high on a wall in his new team's locker room.  Believe in what? We eventually learn that this means believing in each other, believing on what we can do together, believing in ourselves, and believing in people overcoming the many challenges and obstacles life throws at us.
 
@@ -23,13 +25,13 @@ In the very first episode, one of the first things Ted does is post a "Believe" 
 
 Belief, at its core, is an act of empathy. To believe in someone is to understand them and their struggles, their dreams, their potential, and to let them know you’re in their corner. Ted Lasso doesn’t just tell his team to believe; he shows them what belief looks like. It’s in the way he listens, the way he supports, and the way he cares. Empathy is what transforms belief from a feel-good slogan into a transformative force. When we believe in others, we’re not just giving them permission to succeed; we’re giving them the courage to try.
 
-It's quiet the superpower we never knew we needed in life ... and, it's quite important in being a good software engineer, teammate, colleague, and leader!  See, even if we are individual contributors and don't have the title of a lead or manager, each of us, as a software engineer is a leader in so many ways.  We lead in our thoughts, ideas, and how we treat and interact with others.
+It's quiet the superpower we never knew we needed in life ... and, it's quite important in being a good software engineer, colleague, and leader!  See, even if we are individual contributors and don't have the title of a lead or manager, each of us, as a software engineer is a leader in so many ways.  We lead in our thoughts, ideas, and how we treat and interact with others.
 
-This is where the power of belief, care, and kindness comes into play. Let’s face it: being a software engineer can sometimes feel like you’re stuck in an endless penalty shootout against bugs, deadlines, and documentation. It's easy to be so mechanical and operate with blinders on. "I just gotta get this ish done!", I've told this myself and the keyboard many times.  It can sometimes be easy to lose sight of the people we work with.  Empathy works so well when it moves across all directions: left/right, from top-down, and bottom-up.
+This is where the power of belief, care, and kindness comes into play. Let’s face it, being a software engineer can sometimes feel like you’re in an endless penalty shootout against bugs, deadlines, and documentation. It's easy to be so mechanical and operate with blinders on. "I just gotta get this ish done!", I've told myself this many times.  It can be easy to lose sight of the people we work with.  Empathy works so well when it moves across all directions: left/right, from top-down, and bottom-up.
 
-Empathy in software engineering is understanding that the bug someone shipped isn’t a reflection of their competence but perhaps a result of the four hours of sleep they got while juggling a sick kid at home. It’s about realizing that the terse Slack message from your colleague isn’t rudeness but stress manifesting in the only way it knows how. It’s pausing long enough to see the human behind the GitHub avatar.  It's offering to pair on a ticket without putting on a show.  It's reviewing a PR and mindfully offering alternative approaches and explanations with some gentleness - "I think we might be able to ... ", and "I feel like we can ... ".  
+Empathy in software engineering is understanding that the bug someone shipped isn’t a reflection of their competence but perhaps a result of the four hours of sleep they got while juggling a sick kid at home. It’s about realizing that the terse Slack message from your colleague isn’t rudeness but stress manifesting in the only way it knows how. It’s pausing long enough to see the human behind the GitHub avatar.  It's offering to pair on a ticket without putting on a show.  It's reviewing a PR and mindfully offering alternative approaches and taking the time to explain with gentleness - "I think we might be able to ... ", and "I feel like we can ... ".  
 
-Empathy is allowing our team to explore solutions, discuss these openly, provide the time for feedback, and delay any judgment.  It is about fully being present for one-on-ones - focused on the person on the other end of the table or Zoom call. It is to be genuinely curious of our team members mental and emotional state, and to be sincere with our guidance.  It can be just to listen, acknowledge, and say, "I have to think a bit more about this, mind if we circle back?" It can sometimes mean setting aside our ego - that we know more, that we are right, that we are better.   It's about allowing someone to take on more and supporting them if they falter.  It is about giving those nudges, sharing some words of encouragement - bringing that biscuit or two 🍪.
+Empathy is allowing our team to explore solutions, discuss these openly, provide the time for thought and feedback, and delay any judgment.  It is about fully being present for one-on-ones - focused on the person on the other end of the table or Zoom call. It is to be genuinely curious of our team members mental and emotional state, and to be sincere with our guidance.  It can be just to listen, acknowledge, and say, "I have to think a bit more about this, mind if we circle back?" It often means setting aside our ego - that we know more, that we are right, that we are better.   It's about allowing someone to take on more and supporting them if they falter.  It is about giving those nudges, sharing some words of encouragement ... bring a piece of delight, whatever that may be (oh that biscuit! 🍪).
 
 Empathy is respecting our manager's time, understanding that there may be constraints that we aren't privy to, that transparency and being clear with our intentions and our situations gives them the clarity to help and guide towards an outcome of shared expectations.  Being on time for calls and coming prepared with ideas and questions. It is about giving trust, sometimes blind, that they have our best interests.  
 
