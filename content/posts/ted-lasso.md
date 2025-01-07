@@ -6,7 +6,7 @@ category: humanity, leadership
 abstract: "Like for many, Ted Lasso was the show that held me down (I should really say, up) through Covid and some tough times. But it's come to mean more and unsurprisingly many of its themes applies to engineering life."
 imgUrl: '/static/ted-lasso.webp'
 protocol:
-    - "IC or not, we all have a chance to be a leader"
+    - "As a manager, a lead, or an IC, we all have a chance to be a leader"
     - "pause judgement, be curious, and place yourself in someone else's shoes"
     - "honor your commitments, be present, and actively listen in 1-on-1's"
     - "respect people's times by being transparent and coming prepared - don't make people guess what's going on"
