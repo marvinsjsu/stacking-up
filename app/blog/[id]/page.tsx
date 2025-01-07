@@ -17,7 +17,13 @@ async function fetchData(params: { id: string }) {
   };
 }
 
-export default async function Page({ params }: { params: { id: string } }) {
+type PageProps = {
+  params: {
+    id: string;
+  };
+};
+
+export default async function Page({ params }: PageProps) {
   const data = await fetchData(params);
   const { title, abstract, imgUrl, htmlContent, protocol } = data.props.postData;
 
