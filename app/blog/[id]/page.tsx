@@ -5,7 +5,6 @@ import { getPostData, getAllPostParams } from '@/utils/posts';
 
 export async function generateStaticParams() {
   const postParams = await getAllPostParams();
-  console.log({ postParams });
   return postParams.map(({ params }) => ({
     id: params.slug,
   }));
@@ -21,13 +20,10 @@ async function fetchData(paramsPromise: Promise<{ id: string }>) {
   };
 }
 
-type PageProps = {
-  params: {
-    id: string;
-  };
-};
 
-export default async function Page({ params }: PageProps) {
+export default async function Page({ params }: {
+  params: Promise<{ id: string }>
+}) {
   const data = await fetchData(params);
   const { title, abstract, imgUrl, htmlContent, protocol } = data.props.postData;
 

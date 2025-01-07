@@ -2,13 +2,13 @@ import Card from './card';
 
 type CardListProps = {
     slug: string;
-    link: string;
-    date: string;
+    link?: string;
+    date?: string;
     title?: string;
-    key: string;
+    key?: string;
     abstract?: string;
     imgUrl?: string;
-    published: boolean;
+    published?: boolean;
 };
 
 export default function CardList({ data }: { data: Array<CardListProps> }) { 
