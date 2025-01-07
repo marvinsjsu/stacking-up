@@ -1,5 +1,5 @@
 ---
-title: 'The Lasso Way:  believe, care, and be kind'
+title: 'The Lasso Way: Believe, Care, and Be Kind'
 date: '2022-11-20'
 published: true
 category:
