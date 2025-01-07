@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from '@tailwindcss/typography';
  
 export default {
   content: [
@@ -8,6 +9,21 @@ export default {
   ],
   theme: {
     extend: {
+      typography: (theme: (arg0: string) => any) => ({
+        DEFAULT: {
+          css: {
+            img: {
+              display: 'block',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+            },
+            p: {
+              marginTop: theme('spacing.4'),
+              marginBottom: theme('spacing.6'),
+            },
+          },
+        },
+      }),
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -49,7 +65,8 @@ export default {
         projectsMid: '790px',
       },
     },
-
   },
-  plugins: [],
+  plugins: [
+    typography,
+  ],
 } satisfies Config;
