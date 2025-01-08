@@ -68,10 +68,15 @@ export default {
             backgroundColor: 'secondary-orange',
             outlineColor: 'secondary-orange',
           }
+        },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
         }
       },
       animation: {
         pulsate: 'pulsateColor 12s infinite',
+        fadeIn: 'fadeIn 0.5s ease-in-out',
       },
       screens: {
         projectsMid: '790px',

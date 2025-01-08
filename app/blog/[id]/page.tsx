@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { getPostData, getAllPostParams } from '@/utils/posts';
 
@@ -28,7 +29,7 @@ export default async function Page({ params }: {
   const { title, abstract, imgUrl, htmlContent, protocol } = data.props.postData;
 
   return (
-    <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-lexend)] text-primary-blue">
+    <div className="animate-fadeIn items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-lexend)] text-primary-blue">
       <Head>
         <title>{title}</title>
         <meta
@@ -66,6 +67,11 @@ export default async function Page({ params }: {
           className="prose px-12 bg-white w-full max-w-screen-md"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
+        <div className="w-full flex justify-end">
+          <Link href="/" className="group">
+            <button className="m-8 px-4 py-2 bg-primary-blue hover:bg-primary-orange hover:drop-shadow-lg hover:translate-y-[0.25px] hover:transition-transform hover:duration-75 rounded-md text-white">Back</button>
+          </Link>
+        </div>
       </section>
     </div>
   );
