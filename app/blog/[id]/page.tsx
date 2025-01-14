@@ -50,29 +50,32 @@ export default async function Page({ params }: {
         </div>
         <h1 className="w-full px-4 mt-14 text-lg font-medium text-primary-blue text-center">{title}</h1>
         <p className="text-sm text-primary-orange leading-snug px-4 py-8">{abstract}</p>
-
-        {Array.isArray(protocol) && (
-          <div className="mx-4 my-4 pb-8 mb-0 border-2 bg-white border-primary-orange p-4 rounded-md border-opacity-30">
-            <h4 className="italic lowercase font-bold text-primary-blue text-opacity-65 text-[24px] pb-2 -mt-12 -ml-4">TLDR</h4>
-            <ul className="list-disc ml-4 text-opacity-65 text-sm">
-              {protocol.map((item: string) => (
-                <li className="pt-2 pb-0 mb-0 leading-relaxed" key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        )}
       </main>
-      <section className="bg-white mt-20 py-20 md:mt-0">
+        {Array.isArray(protocol) && (
+          <section className="w-full bg-white px-8 flex flex-col max-w-screen-md items-center sm:items-start">
+            <div className="mx-4 pb-8 mb-0 border-2 bg-white border-primary-orange p-4 rounded-md border-opacity-30">
+              <h4 className="italic lowercase font-bold text-primary-blue text-opacity-65 text-[24px] pb-2">TLDR</h4>
+              <ul className="list-disc ml-4 text-opacity-65 text-sm">
+                {protocol.map((item: string) => (
+                  <li className="pt-2 pb-0 mb-0 leading-relaxed" key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+      
+      <div className="bg-white w-full max-w-screen-md"></div>
+      <section className="w-full bg-white py-10 px-8 flex flex-col max-w-screen-md items-center sm:items-start">
         <div
-          className="prose mt-20 px-12 bg-white w-full max-w-screen-md"
+          className="prose bg-white w-full max-w-screen-md px-4"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
-        <div className="w-full flex justify-end">
+        <div className="w-full flex justify-center md:justify-end">
           <Link href="/" className="group">
             <button className="m-8 px-4 py-2 bg-primary-blue hover:bg-primary-orange hover:drop-shadow-lg hover:translate-y-[0.25px] hover:transition-transform hover:duration-75 rounded-md text-white">Back</button>
           </Link>
         </div>
-      </section>
+        </section>
     </div>
   );
 }
