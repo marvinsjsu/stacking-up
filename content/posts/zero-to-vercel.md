@@ -1,7 +1,7 @@
 ---
 title: 'From Zero To Vercel: My Freelance Leap with Next.js'
 date: '2023-02-20'
-published: true
+published: false
 category: next.js
 abstract: 'Building a small marketing website with Next.js may have been overkill, but then again it cut so much time from start to finish, that moving forward, Next.js and Vercel might just be my go-to framework and platform for future web projects.'
 imgUrl: '/static/nextjs.png'
