@@ -1,7 +1,7 @@
 ---
 title: 'From Zero To Vercel: My Freelance Leap with Next.js'
 date: '2023-02-20'
-published: true
+published: false
 category: next.js
 abstract: 'Building a small marketing website with Next.js may have been overkill, but then again it cut so much time from start to finish, that moving forward, Next.js and Vercel might just be my go-to framework and platform for future web projects.'
 imgUrl: '/static/nextjs.png'
@@ -15,7 +15,7 @@ protocol:
 
 ### React's Fullstack Framework
 
-I first heard of Next.js from one of my colleagues at NextRoll and wondered how a full stack framework based on a front-end library would work and what the hype was about.  Quickly, I learned that this framework offered quite a lot! It gives us many optimizations right out of the box and flexibility of rendering either on the client or server-side, or both, on a page-by-page basis - which is quite powerful.  Then there's the Vercel platform, which has so far been one of the seamless experiences in deploying and maintaining a site.  And so far, with using Next.js to build [Ctrlyr](https://www.ctrlyr.com/)'s marketing website, it's been awesome!
+I first heard of Next.js from one of my colleagues at NextRoll and wondered how a full stack framework based on a front-end library would work and what the hype was about.  Quickly, I learned that this framework offered quite a lot! It gives us many optimizations right out of the box and flexibility of rendering either on the client or server-side, or both, on a page-by-page basis - which is quite powerful.  Then there's the Vercel platform, which has so far been one of the seamless experiences in deploying and maintaining a site.  And so far, with using Next.js to build [Ctrlyr's](https://www.ctrlyr.com/) marketing website, it's been awesome!
 
 ### Optimizations
 
@@ -65,7 +65,7 @@ ___
 
 ### Rendering Options
 
-Before I used Next.js, I had a chance to work on a Universal/Isomorphic App. This is where I learned about Server-Side Rendering (SSR) and hydration - where the server renders the initial HTML content, sends it to the browser, then React inserts interactive components into the DOM for dynamic behavior.
+Before I used Next.js, I had a chance to work on a Universal/Isomorphic App (forever grateful to Tyler Brown and Rachel Klausner). This is where I learned about Server-Side Rendering (SSR) and hydration - where the server renders the initial HTML content, sends it to the browser, then React inserts interactive components into the DOM for dynamic behavior.
 
 Here's a few of the benefits to this pattern or technique:
 - **SEO-friendly**: the problem with content that's rendered on the client (like in SPAs) is that it's not easy for search engine crawlers to index the content because crawlers would have to rely on JavaScript to be loaded and executed for content to be rendered, which can be time-consuming and resource-intensive - and if there are any errors or timeouts, then the content will be missed entirely
