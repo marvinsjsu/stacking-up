@@ -62,7 +62,7 @@ export default async function Page({ params }: {
           </div>
         )}
       </main>
-      <section className="bg-white py-20">
+      <section className="bg-white mt-10 py-20 md:mt-0">
         <div
           className="prose mt-20 px-12 bg-white w-full max-w-screen-md"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
