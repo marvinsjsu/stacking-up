@@ -64,7 +64,7 @@ export default async function Page({ params }: {
       </main>
       <section className="bg-white py-20">
         <div
-          className="prose px-12 bg-white w-full max-w-screen-md"
+          className="prose mt-20 px-12 bg-white w-full max-w-screen-md"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
         <div className="w-full flex justify-end">

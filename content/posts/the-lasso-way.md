@@ -18,7 +18,7 @@ protocol:
 
 ### The Lasso Way: Believe, Care, and Be Kind
 
-#### Introduction: The Power of Ted Lasso
+#### The Power of Ted Lasso
 
 I confess, the only reason I gave *Ted Lasso* a watch was because I was stuck at home in isolation, unable to walk because my right knee had ballooned to what looked like half a baseball (psoriatic arthritis, though I didn’t know it at the time). With a free three-month Apple TV trial and curious about Jason Sudeikis’ stache, I hit play.
 

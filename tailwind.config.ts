@@ -32,7 +32,14 @@ export default {
             },
             strong: {
               color: '#0d3b66',
-            }
+            },
+            a: {
+              color: '#f95738',
+              textDecoration: 'none',
+              '&:hover': {
+                textDecoration: 'underline',
+              },
+            },
           },
         },
       }),
