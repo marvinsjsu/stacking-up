@@ -50,7 +50,7 @@ With Next.js's `<Image>` component, these optimizations are not just simplified 
 
 #### Pre-fetching
 
-For Ctrlyr's website, since it's relatively small and built using Next.js' `<Link>` component, all of its JavaScript and static content is pre-fetched as soon as a user visits the landing page. The Next.js `<Link>` component leverages the browser's **[Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)** to detect which links are visible to the user. Once a link is visible, Next.js triggers the fetch for the associated static assets, which are then cached by the browser.
+For Ctrlyr's website, since it's relatively small and built using Next.js' `<Link>` component, all of its JavaScript and static content is pre-fetched as soon as a user visits the landing page. The Next.js `<Link>` component leverages the browser's [**Intersection Observer API**](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to detect which links are visible to the user. Once a link is visible, Next.js triggers the fetch for the associated static assets, which are then cached by the browser.
 
 Pre-fetching significantly enhances the user experience by loading data and assets (e.g., JavaScript and CSS) for a page in the background before the user navigates to it. This reduces the wait time users experience when moving to another page in an app or website, making transitions feel seamless and instantaneous.
 
