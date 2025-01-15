@@ -15,7 +15,7 @@ protocol:
 
 ### React's Fullstack Framework
 
-This post is the first of two posts where I share my journey of building Ctrlyr's website with Next.js. I'll explore the framework's standout features and why I think this will become my go-to tool for modern web development.
+This post is the first of two where I share my journey of building Ctrlyr's website with Next.js. I'll explore the framework's standout features and why I think this will become my go-to tool for modern web development.
 
 I first heard of Next.js from one of my colleagues at NextRoll and wondered how a full stack framework based on a front-end library would work and what the hype was about.  In using Next.js to build a marketing website, I quickly learned that this framework offered a lot! It gives us many optimizations right out of the box and the flexibility of rendering either on the client or server-side, or both, on a page-by-page basis - which is quite powerful.  Then there's the Vercel platform, which has been a seamless experience in deploying and maintaining a site.  And so far, with using Next.js to build [ctrlyr.com](https://www.ctrlyr.com/), it's been awesome!
 
