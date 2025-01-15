@@ -78,12 +78,12 @@ Each file in this directory corresponds to an API endpoint, powered by **serverl
 I had the opportunity to implement this while working on Ctrlyr's contact form. The form submission triggered a serverless function that processed the form data and sent a message to one of the team's Slack channels. This simple yet effective use case demonstrated how serverless functions can handle backend tasks seamlessly within the same Next.js project.
 
 These serverless functions are analogous to **AWS Lambda** and **Google Cloud Functions**. Like those services, they remove the need to keep a server running during idle periods, significantly reducing costs and complexity. Additionally, when deployed on **Vercel**, serverless functions benefit from:
-- **global distribution**: Functions are deployed to edge servers worldwide, ensuring low latency for users regardless of their location.
-- **built-In caching**: Responses can be cached at the edge, further improving performance.
+- **global distribution**: functions are deployed to edge servers worldwide, ensuring low latency for users regardless of their location
+- **built-In caching**: responses can be cached at the edge, further improving performance
 
 While serverless functions offer numerous advantages, there are some limitations to be aware of:
-- **timeout limits**: By default, functions on Vercel have a 10-second execution limit, which may not be suitable for long-running tasks.
-- **cold starts**: Similar to AWS Lambdas, serverless functions may experience slight delays during their first invocation after being idle.
+- **timeout limits**: by default, functions on Vercel have a 10-second execution limit, which may not be suitable for long-running tasks
+- **cold starts**: similar to AWS Lambdas, serverless functions may experience slight delays during their first invocation after being idle
 
 Despite these limitations, serverless functions in Next.js provide a powerful and efficient way to handle backend functionality directly within the framework, making it easier to build and deploy our apps.
 
