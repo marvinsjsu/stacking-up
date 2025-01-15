@@ -1,6 +1,6 @@
 ---
 title: 'From Zero To Vercel: My Freelance Leap with Next.js (Part I)'
-date: '2023-02-20'
+date: '2023-02-23'
 latest-update: '2024-01-14'
 published: true
 category: next.js
