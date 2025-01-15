@@ -38,10 +38,10 @@ And here’s the icing on the cake: when deploying our app to **Vercel**, these 
 Being on NextRoll's Customer Experience team, we were tasked with two main objectives: updating and building all the UI across the AdRoll platform and maintaining our internal React component library. One of our earliest challenges was optimizing the pages in AdRoll, which involved rethinking how we handled images. It was during this time that I truly grasped how significant a role images play in web content — how they impact page load times and, ultimately, user engagement and satisfaction.
 
 To optimize images effectively, we have the following techniques:
-- **creating multiple size versions** of images to ensure the most appropriate size is displayed based on the viewport width.
-- **converting images to web-optimized formats**, such as `webp`, which offers better compression and faster load times.
-- **lazy loading images** to load only those that are above the fold, deferring the rest until the user scrolls down.
-- **using placeholders** for larger images to provide a better user experience during loading.
+- **creating multiple size versions** of images to ensure the most appropriate size is displayed based on the viewport width
+- **converting images to web-optimized formats**, such as `webp`, which offers better compression and faster load times
+- **lazy loading images** to load only those that are above the fold, deferring the rest until the user scrolls down
+- **using placeholders** for larger images to provide a better user experience during loading
 
 You might already have guessed it, Next.js handles all these optimizations for us, right out of the box, at no additional cost (if on Hobby tier 😅)! Each of the optimizations listed above can be time-intensive to implement manually. For example, I played with the concept of lazy loading using plain JavaScript in a mini-project called [Infinite Scroll](https://marvinsjsu.github.io/infinite-scroll/). While it was fun to build, it quickly became clear that implementing such optimizations for every project would be neither efficient nor scalable.
 
