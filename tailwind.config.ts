@@ -49,9 +49,7 @@ export default {
         blue: "rgb(13, 59, 102)",
         darkOrange: "#f95738",
         'primary-blue': "#0d3b66",
-        'secondary-blue': "#0d3b66",
         'primary-orange': "#f95738",
-        'secondary-orange': "#f95738",
         'primary-shadow': "#00000033",
         'bg-white': "#ffffffe6",
       },
@@ -72,8 +70,8 @@ export default {
             outlineColor: 'primary-orange',
           },
           '100%': {
-            backgroundColor: 'secondary-orange',
-            outlineColor: 'secondary-orange',
+            backgroundColor: 'primary-orange',
+            outlineColor: 'primary-orange',
           }
         },
         fadeIn: {
