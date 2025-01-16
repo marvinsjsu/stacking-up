@@ -26,7 +26,7 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "arvin Mante - Stacking Up!",
+  title: "Marvin Mante - Stacking Up!",
   description: "Thoughts and insights from my journey as a software engineer - personal and technical growth.",
 };
 
