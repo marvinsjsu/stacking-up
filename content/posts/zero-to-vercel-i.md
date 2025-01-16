@@ -63,7 +63,7 @@ While pre-fetching added value for Ctrlyr's relatively small website, its true p
 
 #### Serverless functions
 
-One of the benefits of (Universal/Isomorphic applications)[https://medium.com/capital-one-tech/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905] is the ability to have both front-end and back-end code live in the same codebase. With Next.js and its file-based routing system, the framework dedicates the `/pages/api` directory for our backend code. Files in this directory act as **request handlers**, where the defined function receives standard `Request` and `Response` objects, similar to how it works in Express.
+One of the benefits of [**Universal/Isomorphic applications**](https://medium.com/capital-one-tech/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905) is the ability to have both front-end and back-end code live in the same codebase. With Next.js and its file-based routing system, the framework dedicates the `/pages/api` directory for our backend code. Files in this directory act as **request handlers**, where the defined function receives standard `Request` and `Response` objects, similar to how it works in Express.
 
 For example:
 ```javascript
