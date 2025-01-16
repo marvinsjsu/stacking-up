@@ -77,7 +77,7 @@ Each file in this directory corresponds to an API endpoint, powered by **serverl
 
 I had the opportunity to implement this while working on Ctrlyr's contact form. The form submission triggered a serverless function that processed the form data and sent a message to one of the team's Slack channels. This simple yet effective use case demonstrated how serverless functions can handle backend tasks seamlessly within the same Next.js project.
 
-These serverless functions are analogous to **AWS Lambda** and **Google Cloud Functions**. Like those services, they remove the need to keep a server running during idle periods, significantly reducing costs and complexity. Additionally, when deployed on **Vercel**, serverless functions benefit from:
+These serverless functions are analogous to **AWS Lambda**. Like those services, they remove the need to keep a server running during idle periods, significantly reducing costs and complexity. Additionally, when deployed on **Vercel**, serverless functions benefit from:
 - **global distribution**: functions are deployed to edge servers worldwide, ensuring low latency for users regardless of their location
 - **built-In caching**: responses can be cached at the edge, further improving performance
 
